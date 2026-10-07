@@ -82,7 +82,7 @@ export const updateTodo = asyncHandler(async (req, res) => {
       message: "Invalid todo id",
     });
   }
-  if (!title || title.trim === "") {
+  if (!title || title.trim() === "") {
     return res.status(400).json({
       success: false,
       message: "Title is required",
