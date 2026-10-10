@@ -8,7 +8,8 @@ The application uses MongoDB Atlas to store todo data and includes search, sorti
 
 ## 🌐 Live Deployment
 
-**Backend API:** https://todo-backend-e88b.onrender.com/
+**Backend API:** https://todo-backend-e88b.onrender.com/api/
+
 
 ## ✨ Features
 
